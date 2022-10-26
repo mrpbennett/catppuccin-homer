@@ -9,8 +9,10 @@
   <img src="https://raw.githubusercontent.com/catppuccin/catppuccin/main/assets/palette/macchiato.png" width="400" />
 </p>
 
-Inspired by the [catppuccin](https://github.com/catppuccin) macchiato palette. A
-new [homer dashboard](https://github.com/bastienwirtz/homer) theme.
+Inspired by the [catppuccin](https://github.com/catppuccin) themes, which is a
+community-driven pastel theme that aims to be the middle ground between low and
+high contrast themes. I wanted to bring catppuccin to the
+[homer dashboard](https://github.com/bastienwirtz/homer).
 
 ![catppuccin](./assets/images/examples/preview.png)
 
