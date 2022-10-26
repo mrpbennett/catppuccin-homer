@@ -12,7 +12,7 @@
 Inspired by the [catppuccin](https://github.com/catppuccin) macchiato palette. A
 new [homer dashboard](https://github.com/bastienwirtz/homer) theme.
 
-![catppuccin](./assets/images/examples/homer.png)
+![catppuccin](./assets/images/examples/preview.png)
 
 ## Activating theme
 
