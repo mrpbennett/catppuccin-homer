@@ -8,6 +8,7 @@
   --catppuccin-base: #24273a;
   --catppuccin-surface0: #363a4f;
   --catppuccin-text: #cad3f5;
+  --catppuccin-text-dark: #5b6078;
   --catppuccin-surface2: #5b6078;
   --catppuccin-teal: #8bd5ca;
   --catppuccin-green: #a6da95;
@@ -130,7 +131,7 @@
 
 #app.theme-default.is-dark .tag {
   background-color: var(--catppuccin-pink);
-  color: var(--catppuccin-text);
+  color: var(--catppuccin-text-dark);
 }
 
 #app.theme-default.is-dark .status.unknown::before {
