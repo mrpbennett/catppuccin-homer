@@ -8,7 +8,6 @@
   --catppuccin-base: #303446;
   --catppuccin-surface0: #414559;
   --catppuccin-text: #c6d0f5;
-  --catppuccin-text-dark: #5b6078;
   --catppuccin-surface2: #626880;
   --catppuccin-teal: #81c8be;
   --catppuccin-green: #a6d189;
@@ -17,6 +16,7 @@
   --catppuccin-mauve: #ca9ee6;
   --catppuccin-red: #e78284;
   --catppuccin-yellow: #e5c890;
+  --catppuccin-text-dark: var(--catppuccin-surface2);
 
   --highlight-primary: transparent;
   --highlight-secondary: var(--catppuccin-surface0);
