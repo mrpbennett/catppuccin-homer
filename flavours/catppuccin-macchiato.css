@@ -16,6 +16,7 @@
   --catppuccin-mauve: #c6a0f6;
   --catppuccin-red: #ed8796;
   --catppuccin-yellow: #eed49f;
+  --catppuccin-text-dark: var(--catppuccin-surface2);
 
   --highlight-primary: transparent;
   --highlight-secondary: var(--catppuccin-surface0);
@@ -130,7 +131,7 @@
 
 #app.theme-default.is-dark .tag {
   background-color: var(--catppuccin-pink);
-  color: var(--catppuccin-text);
+  color: var(--catppuccin-text-dark);
 }
 
 #app.theme-default.is-dark .status.unknown::before {
