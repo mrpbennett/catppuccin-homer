@@ -7,8 +7,9 @@
 #app.theme-default.is-dark {
   --catppuccin-base: #1e1e2e;
   --catppuccin-surface0: #313244;
-  --catppuccin-text: #cdd6f4;
+  --catppuccin-surface1: #45475a;
   --catppuccin-surface2: #585b70;
+  --catppuccin-text: #cdd6f4;
   --catppuccin-teal: #94e2d5;
   --catppuccin-green: #a6e3a1;
   --catppuccin-peach: #fab387;
@@ -152,8 +153,8 @@
   box-shadow: 0 0 5px 1px var(--catppuccin-green);
 }
 
-body #app .card:hover {
-  background-color: #45475a; /* Surface1 */
+#app.theme-default.is-dark .card:hover {
+  background-color: var(--catppuccin-surface1);
 }
 
 /* Footer */
