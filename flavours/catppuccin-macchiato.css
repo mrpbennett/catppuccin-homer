@@ -4,7 +4,7 @@
 
 /* Catppuccin theme for Homer */
 
-#app.theme-default.is-dark {
+#app.theme-default.dark {
   --catppuccin-base: #24273a;
   --catppuccin-surface0: #363a4f;
   --catppuccin-surface1: #494d64;
@@ -37,128 +37,128 @@
 
 /* Comment the following section out if you want no header image. Also, set --highlight-primary to var(--catppuccin-surface0). */
 
-#app.theme-default.is-dark #bighead {
+#app.theme-default.dark #bighead {
   background-image: url('../assets/images/romb.png');
   background-size: cover;
   background-position: center;
 }
 
-#app.theme-default.is-dark .logo {
+#app.theme-default.dark .logo {
   color: var(--catppuccin-mauve);
 }
 
-#app.theme-default.is-dark .first-line .headline {
+#app.theme-default.dark .first-line .headline {
   color: var(--catppuccin-yellow);
 }
 
-#app.theme-default.is-dark .navbar-start i {
+#app.theme-default.dark .navbar-start i {
   color: var(--catppuccin-teal);
 }
 
-#app.theme-default.is-dark [title='Auto-switch'] {
+#app.theme-default.dark [title='Auto-switch'] {
   color: var(--catppuccin-mauve);
 }
 
-#app.theme-default.is-dark [title='Dark theme'] {
+#app.theme-default.dark [title='Dark theme'] {
   color: var(--catppuccin-peach);
 }
 
-#app.theme-default.is-dark .navbar-item .fa-columns {
+#app.theme-default.dark .navbar-item .fa-columns {
   color: var(--catppuccin-green);
 }
 
-#app.theme-default.is-dark .navbar-item .fa-list {
+#app.theme-default.dark .navbar-item .fa-list {
   color: var(--catppuccin-teal);
 }
 
-#app.theme-default.is-dark .search-bar .search-label:before {
+#app.theme-default.dark .search-bar .search-label:before {
   color: var(--catppuccin-yellow);
 }
 
-#app.theme-default.is-dark .search-bar input {
+#app.theme-default.dark .search-bar input {
   background-color: var(--catppuccin-base);
 }
 
-#app.theme-default.is-dark .search-bar > input:nth-child(2) {
+#app.theme-default.dark .search-bar > input:nth-child(2) {
   color: var(--catppuccin-text);
 }
 
-#app.theme-default.is-dark .search-bar input:focus-visible {
+#app.theme-default.dark .search-bar input:focus-visible {
   outline: none;
 }
 
 /* Message */
 
-#app.theme-default.is-dark .message-header {
+#app.theme-default.dark .message-header {
   color: var(--catppuccin-text);
   background-color: var(--catppuccin-surface0);
   border-style: none none solid none;
   border-width: thin;
 }
 
-#app.theme-default.is-dark .is-info .message-header {
+#app.theme-default.dark .is-info .message-header {
   border-color: var(--catppuccin-teal);
 }
 
-#app.theme-default.is-dark .is-info .message-header i {
+#app.theme-default.dark .is-info .message-header i {
   color: var(--catppuccin-teal);
 }
 
-#app.theme-default.is-dark .is-success .message-header {
+#app.theme-default.dark .is-success .message-header {
   border-color: var(--catppuccin-green);
 }
 
-#app.theme-default.is-dark .is-success .message-header i {
+#app.theme-default.dark .is-success .message-header i {
   color: var(--catppuccin-green);
 }
 
-#app.theme-default.is-dark .is-warning .message-header {
+#app.theme-default.dark .is-warning .message-header {
   border-color: var(--catppuccin-peach);
 }
 
-#app.theme-default.is-dark .is-warning .message-header i {
+#app.theme-default.dark .is-warning .message-header i {
   color: var(--catppuccin-peach);
 }
 
-#app.theme-default.is-dark .is-danger .message-header {
+#app.theme-default.dark .is-danger .message-header {
   border-color: var(--catppuccin-red);
 }
 
-#app.theme-default.is-dark .is-danger .message-header i {
+#app.theme-default.dark .is-danger .message-header i {
   color: var(--catppuccin-red);
 }
 
 /* Cards */
 
-#app.theme-default.is-dark .tag {
+#app.theme-default.dark .tag {
   background-color: var(--catppuccin-pink);
   color: var(--catppuccin-text-dark);
 }
 
-#app.theme-default.is-dark .status.unknown::before {
+#app.theme-default.dark .status.unknown::before {
   background-color: var(--catppuccin-yellow);
   border-color: var(--catppuccin-yellow);
   box-shadow: 0 0 5px 1px var(--catppuccin-yellow);
 }
 
-#app.theme-default.is-dark .status.bad::before {
+#app.theme-default.dark .status.bad::before {
   background-color: var(--catppuccin-red);
   border-color: var(--catppuccin-red);
   box-shadow: 0 0 5px 1px var(--catppuccin-red);
 }
 
-#app.theme-default.is-dark .status.running::before {
+#app.theme-default.dark .status.running::before {
   background-color: var(--catppuccin-green);
   border-color: var(--catppuccin-green);
   box-shadow: 0 0 5px 1px var(--catppuccin-green);
 }
 
-#app.theme-default.is-dark .card:hover {
+#app.theme-default.dark .card:hover {
   background-color: var(--catppuccin-surface1);
 }
 
 /* Footer */
-#app.theme-default.is-dark .footer {
+#app.theme-default.dark .footer {
   color: var(--catppuccin-text);
 }
 
