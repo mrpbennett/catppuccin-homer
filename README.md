@@ -412,8 +412,6 @@ defaults:
 
 - Copy the file of your chosen flavour from [`flavours`](./flavours) over to
   `www/assets/...`
-- Copy [`romb.png`](./assets/images/backgrounds/romb.png) to
-  `www/assets/images/romb.png`.
 - Put these lines into `www/assets/config.yml` and save the file:
 
 ```yaml
