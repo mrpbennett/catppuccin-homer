@@ -37,7 +37,7 @@
 /* Comment the following section out if you want no header image. Also, set --highlight-primary to var(--catppuccin-surface0). */
 
 #app.theme-default.light #bighead {
-  background-image: url('../assets/images/romb.png');
+  background-image: url('../assets/images/backgrounds/romb.png');
   background-size: cover;
   background-position: center;
 }
