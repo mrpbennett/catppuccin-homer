@@ -16,6 +16,17 @@ high contrast themes. I wanted to bring catppuccin to the
 
 ![catppuccin](./assets/images/examples/preview.png)
 
+## Testing
+
+I have included the standard docker compose file under the new `docker` directory. You will need to map this to the `assets` folder in the volume. When running the docker image like so:
+
+```yaml
+volumes:
+  - <your-path>/docker:/www/assets
+```
+
+When running this will produce the needed files including the `config.yaml` this is where you can add the `stylesheet:`.
+
 ## Activating theme
 
 Pick your flavour
